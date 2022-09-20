@@ -1,5 +1,7 @@
 <h1>Active Directory Lab -- Detailed Guide for Beginners</h1>
 
+<h1> UNDER CONSTRUCTION </h1>
+
 <h2>Network Diagram</h2>
 
 ![29-07-2022 AD Lab drawio](https://user-images.githubusercontent.com/112909705/191284205-bdbfdcaa-935e-4017-a003-74e57009610a.png)
@@ -33,6 +35,27 @@ After completing this lab, you will have learned more about why Active Directory
 - <b>Windows 10</b>
 
 <h2>---</h2>
+
+
+<h2>Prerequisites</h3> 
+
+
+
+<h3>IT Knowledge</h3> 
+You don't need to know all of these things in depth, but the more you know, the less googling you will have to do. 
+- Basic understanding of what different hardware components do, such as CPU, RAM, HDD, etc
+- Basic understanding of computer networking, such as IP, subnets, default gateways, etc.
+- Basic understanding of Client-Server model 
+- Basic understanding of different services such as DHCP, DNS, NAT, etc 
+
+
+
+
+
+<h3>Hardware</h3> 
+You don't need these things, but they are recommended for optimizing your VM's performance. 
+- At least 8GB of RAM (ideally 16GB+)
+- 50GB of space on your HDD/SSD 
 
 
 
