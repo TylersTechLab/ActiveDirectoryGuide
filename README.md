@@ -549,3 +549,37 @@ Click "Restart now"
 ![08_04_22_15_58_34](https://user-images.githubusercontent.com/112909705/191372744-f15012b7-240c-4011-8d85-ad7b0710f9b5.png)
 
 
+## Installing Active Directory Domain Services 
+
+After logging back in from the reboot, Server Manager should have automatically started. If not, search for "Server Manager". 
+
+
+- Before you Begin: Next
+- Installation Type: role-based or feature-based installation 
+- Server Selection: Select a server from the server pool (DC, the only Server that we have, which we're on)
+- Server Roles: Active Directory and Directory Services 
+- AD DS: Next
+- Confirmation: Install
+
+
+It will take a while for it to install.
+
+
+Click "Add roles and features"
+
+![08_05_22_08_16_37](https://user-images.githubusercontent.com/112909705/191372971-e5dd7eb2-1f7c-4057-b3ee-aef4cc3f5d3c.png)
+
+Click "Next"
+
+![08_05_22_08_17_19](https://user-images.githubusercontent.com/112909705/191373017-7a329718-d497-4669-90c6-2d2044acb8b8.png)
+
+
+- Have "Role-based or feature-based installation" selected
+- Click "Next"
+
+![08_05_22_08_18_16](https://user-images.githubusercontent.com/112909705/191373052-451d3a2c-bae5-4169-91bc-0cbfe37e4661.png)
+
+
+Have our DC selected and click "Next"
+
+![08_05_22_08_19_48](https://user-images.githubusercontent.com/112909705/191373145-78ccf4d4-6cdb-4620-813d-2b1339f7f636.png)
