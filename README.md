@@ -1194,6 +1194,103 @@ Eject the Windows 10 Enterprise ISO Disk
 - Right-click the blue disc in bottom-right corner 
 - Click "Remove disk from virtual disk" 
 
+![08_07_22_14_11_15](https://user-images.githubusercontent.com/112909705/191381656-8d3e67f5-a8cb-4502-a16c-80e140a51779.png)
+
+Since the virtual drive is now empty, we can begin installing the Guest Additions to make our VM run more smoothly. 
+
+- Click "Devices" 
+- Click "Insert Guest Additions CD image..."
+
+![08_07_22_14_14_26](https://user-images.githubusercontent.com/112909705/191381708-edffb893-237f-43b5-9373-ab647fcb583e.png)
+
+
+- Click "This PC"
+- Click "CD Drive (D:) VirtualBox Guest Additions" 
+
+![08_07_22_14_16_29](https://user-images.githubusercontent.com/112909705/191381733-f51bb1af-61b0-4584-b404-c94a03a9f7b1.png)
+
+- Click "Yes" 
+
+![08_07_22_14_17_19](https://user-images.githubusercontent.com/112909705/191381748-e85ba9c3-9d19-4c53-93d3-9f1f3c019b3a.png)
+
+- Click "Next"
+
+![08_07_22_14_17_48](https://user-images.githubusercontent.com/112909705/191381775-fb656954-91f4-4f1c-9285-ea91f5c6a689.png)
+
+- Click "Next" 
+
+![08_07_22_14_18_05](https://user-images.githubusercontent.com/112909705/191381854-49673662-6c57-4721-8d91-f9f08d107b32.png)
+
+
+- Click "Install"
+
+![08_07_22_14_18_19](https://user-images.githubusercontent.com/112909705/191381884-5998e6d8-ce3a-492e-b902-e42b51c2546f.png)
+
+- Click "Finish" 
+
+![08_07_22_14_18_53](https://user-images.githubusercontent.com/112909705/191381901-bffbac3f-cdab-4092-81f2-c118488325a2.png)
+
+
+## Joining Windows 10 Client to the Domain 
+
+
+
+- Click the Start/Windows button 
+- Click "System"
+
+![08_08_22_15_01_10](https://user-images.githubusercontent.com/112909705/191381936-2ca698d8-16c4-43a6-95f3-9ae6a5e8744e.png)
+
+
+- Click "Rename this PC (advanced)"
+
+![08_08_22_15_02_14](https://user-images.githubusercontent.com/112909705/191381961-7cde5adf-18f1-445d-964b-53c6e13c28c6.png)
+
+- Click "Change"
+
+![08_08_22_15_02_54](https://user-images.githubusercontent.com/112909705/191382000-4ebe5f11-371f-46db-be0e-f06ec2d6eaf9.png)
+
+- Rename the computer name: PC1 
+- Click "Domain"
+- Type "mydomain.com"
+- Click "OK"
+
+![08_08_22_15_05_48](https://user-images.githubusercontent.com/112909705/191382023-b6bcdc8d-a643-412e-9ef8-024ad491466f.png)
+
+
+Enter the domain admin's account credentials as it has the required permissions. 
+
+- a-jdoe 
+- Password1
+- Click "OK"
+
+![08_08_22_15_07_06](https://user-images.githubusercontent.com/112909705/191382059-299b3e89-6ef5-4fe1-aa3c-70813fa08ad7.png)
+
+- Click "OK"
+
+![08_08_22_15_07_31](https://user-images.githubusercontent.com/112909705/191382089-f00d2893-446d-44b6-af65-a7e1411bd66d.png)
+
+- Click "OK"
+
+![08_08_22_15_07_48](https://user-images.githubusercontent.com/112909705/191382125-22524c83-224c-4607-aebf-f028aeef9aeb.png)
+
+- Click the Windows/Start icon 
+- Click the power icon
+- Click "Restart"
+
+![08_08_22_15_09_43](https://user-images.githubusercontent.com/112909705/191382147-47efe399-3bc9-44b0-b071-0eb8d94b9d24.png)
+
+- Click "Other user"
+- Username: a-jdoe 
+- Password: Password1
+
+![08_08_22_15_13_45](https://user-images.githubusercontent.com/112909705/191382168-e1c495b5-e799-470d-afef-5daff4252699.png)
+
+![08_08_22_15_14_09](https://user-images.githubusercontent.com/112909705/191382191-3737c32a-d662-44d3-a509-90443f71615d.png)
+
+
+
+
+
 
 
 
