@@ -788,3 +788,67 @@ Enter the credentials for the domain administrator.
 Navigate to Server Manager. 
 
 - Click "Add roles and features"
+
+![08_06_22_08_31_35](https://user-images.githubusercontent.com/112909705/191377029-fd0a4329-5c20-4f08-8dd8-28bbc2b460ec.png)
+
+- Click "Next"
+
+![08_06_22_08_32_22](https://user-images.githubusercontent.com/112909705/191377065-077162b4-2d55-408d-9969-d5760a3fc6ec.png)
+
+
+- Click "Next"
+
+![08_06_22_08_32_53](https://user-images.githubusercontent.com/112909705/191377099-28aa6b2f-eeb4-4965-b2c9-10b88998ccd0.png)
+
+
+- Click "Next"
+
+![08_06_22_08_33_44](https://user-images.githubusercontent.com/112909705/191377127-dbeaf972-bf95-4fe6-a024-230032139421.png)
+
+
+- Select "Remote Access"
+- Click "Next"
+
+![08_06_22_08_44_53](https://user-images.githubusercontent.com/112909705/191377152-75fb71fa-b85e-43e8-a25b-6263d3de3abf.png)
+
+
+- Click "Next"
+
+![08_06_22_08_48_02](https://user-images.githubusercontent.com/112909705/191377173-34b7cc22-4df7-42c1-bd62-a6b1615660b2.png)
+
+
+- Click "Next"
+
+![08_06_22_08_48_38](https://user-images.githubusercontent.com/112909705/191377211-f00b1e52-646d-4e98-b5a1-ef661f2d74f7.png)
+
+
+- Select "Routing"
+- Click "Next" 
+
+![08_06_22_08_52_25](https://user-images.githubusercontent.com/112909705/191377239-17365e83-13f1-40a3-8b9d-2affa98dab9c.png)
+
+
+DirectAccess and VPN (RAS) will have been automatically selected, after selecting Routing. 
+
+- Click "Next" 
+
+![08_06_22_08_52_56](https://user-images.githubusercontent.com/112909705/191377339-f11e7d7b-c3d1-41a9-8d20-f6acb50be6d6.png)
+
+
+- Click "Next"
+
+![08_06_22_08_53_54](https://user-images.githubusercontent.com/112909705/191377369-d3df527b-75f9-49f1-ab3a-777ccbc36da4.png)
+
+
+- Click "Next"
+
+![08_06_22_08_54_54](https://user-images.githubusercontent.com/112909705/191377396-6b1e0052-5f8c-4fba-80b0-a661ad94ffd9.png)
+
+- Click "Install" 
+
+![08_06_22_08_57_03](https://user-images.githubusercontent.com/112909705/191377428-c1762ba0-87d4-44cb-a534-8d52268019ce.png)
+
+- Click "Close"
+
+![08_06_22_08_59_43](https://user-images.githubusercontent.com/112909705/191377465-5c43f181-7801-4f72-8183-664b1ffbb4ba.png)
+
