@@ -283,5 +283,61 @@ Should I include this?
 ![08_02_22_17_37_51](https://user-images.githubusercontent.com/112909705/191368468-90d22477-ecb2-4c95-919d-7858ebdc6ad1.png)
 
 - Select "Install Now"
+
 ![08_02_22_17_41_54](https://user-images.githubusercontent.com/112909705/191368588-e4c41129-0283-4693-95bb-000d9a482da0.png)
+
+At this step we need to be very careful. We want to select the Standard Evaluation WITH Desktop Experience. This will provide a GUI, like what you are seeing right now, and is much more convenient and beginner-friendly.
+
+If we were to install the regular Standard Evaluation, there would be no GUI and everything would be by CLI, so you would have to type commands to perform all of the desired actions. 
+
+- Select "Windows Server 2022 Standard Evaluation (Desktop Experience)"
+- Click "Next"
+
+![08_02_22_17_44_04](https://user-images.githubusercontent.com/112909705/191368881-58a30079-efb6-4c49-a4bd-a219bc2bce5c.png)
+
+
+- Click the box to accept the terms
+- Click "Next"
+
+![08_02_22_17_45_25](https://user-images.githubusercontent.com/112909705/191368959-c8af1999-d40a-4203-ab03-e4de88f0c466.png)
+
+Upgrading the OS would mean that we have it already installed. We are installing Windows Server 2022 on this VM for the first time. So in this case we should go with the "Custom" installation. 
+
+Click "Custom: Install Microsoft Server Operating System only (advanced)"
+
+![08_02_22_17_45_52](https://user-images.githubusercontent.com/112909705/191369027-2f12015e-eb1c-4a7e-8414-2e45a2436945.png)
+
+Now we need to select where we want to install the operating system. Earlier when we were creating the VM, we created a "Virtual Hard Disk" and allocated 40GB of storage space. That same Virtual Hard Disk is going to appear to select, which we will use. 
+
+- Select "Drive 0 Unallocated Space - 40.0 GB - 40.0GB"
+- Click "Next" 
+
+![08_02_22_17_48_05](https://user-images.githubusercontent.com/112909705/191369124-5dd4f605-5fa4-40f0-9627-9f57939534f8.png)
+
+The Microsoft Server 2022 installation will begin and the computer might restart a few times. 
+
+A black screen will appear which tells you to press any key -- but don't press any key. 
+
+It will prompt you with that message because I have the Windows Server ISO disk inserted in the optical drive, and wants to see if you want to boot from the CD. If we were to do that, we would start the entire process over again. 
+
+![08_02_22_17_48_25](https://user-images.githubusercontent.com/112909705/191369195-c877fb88-3de4-4487-984a-c12dbbffcd39.png)
+
+Do not press any key. Windows will load normally soon.
+
+![08_02_22_17_50_20](https://user-images.githubusercontent.com/112909705/191369261-a8e5e35a-86c1-4c48-adec-002c8d9f672e.png)
+
+![08_02_22_17_51_09 1](https://user-images.githubusercontent.com/112909705/191369316-384426e4-8243-413d-86de-6e5b743de243.png)
+
+User name: Administrator 
+Password: Password1
+
+Enter the password you would like to set and click Finish. 
+
+ This is only a lab environment so we do not need to worry about a secure password. I will be using the password: "Password1".
+
+
+User name: Administrator 
+Password: Password1
+
+![08_02_22_17_56_14](https://user-images.githubusercontent.com/112909705/191369395-90eaf88b-cae1-444e-87a6-3c71b1ce91c1.png)
 
