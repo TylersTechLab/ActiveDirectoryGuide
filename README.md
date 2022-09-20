@@ -258,3 +258,7 @@ Should I include this?
 - Click "Empty"
 - Click the blue disc icon to the right 
 - Click "Choose a disk file..."
+
+![08_02_22_16_16_47](https://user-images.githubusercontent.com/112909705/191365044-4ebfd33e-8e0a-4619-9e00-b25f439f994c.png)
+
+
