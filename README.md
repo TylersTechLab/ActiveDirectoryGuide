@@ -408,3 +408,80 @@ This step is very important for making your VM experience more enjoyable. The Vi
 ![08_03_22_15_55_22](https://user-images.githubusercontent.com/112909705/191370537-da7edc23-f33e-4af8-82bc-4d5619e72891.png)
 
 You should notice the Virtual Machine runs much faster now. 
+
+## Naming the Server's Network Adapters 
+
+Log in to the computer.
+
+When we created the virtual machine 1 NIC was automatically included (our external NIC). We then added another NIC and assigned it as "internal".
+
+There are 2 NICs as a result, where one is facing the internet and the other facing the internal network. 
+
+
+(FIX THIS IMAGE)
+
+![08_03_22_14_41_20](https://user-images.githubusercontent.com/112909705/191370925-9208e99b-b7d1-44e8-b6a0-7a20ab687586.png)
+
+
+The NICs came with generic names that are not very descriptive. We want to rename them to be better organized and configure other things more easily later.
+
+Before renaming the network adapters, we need to confirm which one is the internal and which one is the external. 
+
+
+Network icon (bottom right) > Network & internet settings
+
+![08_04_22_06_42_21](https://user-images.githubusercontent.com/112909705/191371102-00cf056b-b8e3-4b6a-88d5-60004bd868d7.png)
+
+Ethernet > Change adapter options 
+
+![08_04_22_06_52_25](https://user-images.githubusercontent.com/112909705/191371152-37db519d-ef65-4a13-9aa8-fee19de8ada2.png)
+
+Open the status for Ethernet and Ethernet 2
+
+![08_04_22_06_59_23](https://user-images.githubusercontent.com/112909705/191371302-536fa24c-b42b-4319-8c55-aef33f6218dc.png)
+
+Open the details for Ethernet and Ethernet 2
+
+![08_04_22_07_01_21](https://user-images.githubusercontent.com/112909705/191371357-53089ae4-8cb4-4c13-9758-c30f6aaa1852.png)
+
+When a computer is unable to obtain an IP address from DHCP it is given an IP address that starts with 169.254. This means the computer can only communicate with other computers on the local subnet, which would mean it cannot interact with any other computer outside of the subnet (cannot connect to the internet). This means that the "Ethernet" network adapter is the internally-facing NIC. 
+
+Since the "Ethernet 2" network adapter has an IP of 10.0.2.15, which is within a normal private IP address range, it means that DHCP was able to assign an IP to "Ethernet 2", which was obtained from the home router, and "Ethernet 2" can connect to the internet. This means that "Ethernet 2" is the externally-facing NIC. 
+
+"Ethernet" has an IP of: 169.254.112.243 -- (INTERNAL)
+"Ethernet 2" has an IP of: 10.0.2.15 -- (EXTERNAL)
+
+![08_04_22_12_30_02](https://user-images.githubusercontent.com/112909705/191371406-2ddfb6e1-c2f3-4a1e-af33-ed477150a3ac.png)
+
+Since we know Ethernet is internal and Ethernet 2 is external, let's rename them appropriately. 
+
+- Close both of the Network Connection Details 
+
+![08_04_22_12_33_47](https://user-images.githubusercontent.com/112909705/191371441-4328f369-26f5-4ff4-b7e3-0c34995c3d3a.png)
+
+Close both the NIC status'. 
+
+![08_04_22_12_35_36](https://user-images.githubusercontent.com/112909705/191371503-0de76aa2-5a5f-48b9-b5ae-52f1390d69df.png)
+
+Right-click "Ethernet" > Rename 
+
+![08_04_22_07_59_35 1](https://user-images.githubusercontent.com/112909705/191371552-849e4e33-66c6-4590-8982-51257c900977.png)
+
+
+Rename as "INTERNAL" or something else intuitive to read
+
+![08_04_22_08_03_50](https://user-images.githubusercontent.com/112909705/191371630-470642af-1cc2-44df-a4eb-60cd01ab3eb8.png)
+
+Right-click "Ethernet 2" > Rename 
+
+![08_04_22_08_05_25](https://user-images.githubusercontent.com/112909705/191371661-b32032e1-29bc-4965-a39e-44e4e0d99ade.png)
+
+
+Rename as "EXTERNAL" or something else intuitive to read.
+
+![08_04_22_08_06_58](https://user-images.githubusercontent.com/112909705/191371714-5b7676e6-df91-4a38-bc9e-eca8de7defb9.png)
+
+
+Both have been renamed and we do not need to go through all of those windows again to distinguish the NICs. This will speed up configuring other services that use either networks. 
+
+![08_04_22_08_12_56](https://user-images.githubusercontent.com/112909705/191371785-a18b0b46-71c6-4b45-b628-fed056f31ecc.png)
