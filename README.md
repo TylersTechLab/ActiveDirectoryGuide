@@ -671,7 +671,7 @@ The computer will restart and will take a while before you can log in again.
 
 ## Creating a Domain Administrator Account (Organizational Unit)
 
-What is an Organizational Unit? 
+What is an Organizational Unit? EDIT EDIT EDIT EDIT 
 
 
 - Log into the computer again
@@ -680,3 +680,80 @@ What is an Organizational Unit?
 - right click "mydomain.com" > new > Organizational Unit > name it ADMINS
 - drop-down "mydomain.com > right-click "ADMINS" > New > User > First name: Jane, last name: Doe, user login a-jdoe > next
 - Set password to: Password1 -- change to "password never expires"
+
+
+![07_30_22_07_28_59](https://user-images.githubusercontent.com/112909705/191375415-f4eef51e-cd96-4c94-a9c2-e2479012995e.png)
+
+
+- Search "users"
+- Click "Active Directory Users and Computers"
+
+![08_05_22_11_26_46](https://user-images.githubusercontent.com/112909705/191375463-b96445b1-0866-4b56-ad90-cdf70e864c59.png)
+
+- Right-click "mydomain.com"
+- Click "New"
+- Click "Organizational Unit"
+
+![08_05_22_11_33_01](https://user-images.githubusercontent.com/112909705/191375529-a7682ee6-1148-43b2-b050-47273b80d619.png)
+
+- Type "ADMINS" 
+- Click "OK"
+
+![08_05_22_11_36_39](https://user-images.githubusercontent.com/112909705/191375637-8a5db174-af4a-4bb1-8174-b36a09eb176e.png)
+
+- Click the drop-down arrow for "mydomain.com"
+- Right-click "ADMINS" 
+- Click "New" 
+- Click "User" 
+
+![08_05_22_11_40_40](https://user-images.githubusercontent.com/112909705/191375714-746c2814-46a9-4db7-b2da-211d86f0b8a3.png)
+
+- First name: Jane
+- Last name: Doe
+- User logon name: a-jdoe
+- Click "Next" 
+
+![08_05_22_11_44_01](https://user-images.githubusercontent.com/112909705/191375768-8589d82e-1b6d-4885-bb1c-c4523f415848.png)
+
+- Password: Password1
+- Select Password never expires
+- Click OK
+
+![08_05_22_11_47_36](https://user-images.githubusercontent.com/112909705/191375808-fc186fdd-6dec-4993-ad01-e36bf1b946b3.png)
+
+
+- Click "Next"
+
+![08_05_22_11_50_20](https://user-images.githubusercontent.com/112909705/191375842-5d2b68d1-ff40-4621-9ccc-7dc1dd29095a.png)
+
+- Click "Finish"
+
+![08_05_22_11_50_54](https://user-images.githubusercontent.com/112909705/191375885-350e8600-3b16-4be9-a631-0a7ebcc7267a.png)
+
+- Right-click "Jane Doe"
+- Click "Properties" 
+
+![08_05_22_11_53_08](https://user-images.githubusercontent.com/112909705/191375933-50dc0a03-638a-4a5f-9ee2-0e048e4d5fc9.png)
+
+- Click "Member Of"
+
+![08_05_22_11_53_56](https://user-images.githubusercontent.com/112909705/191375963-dcbb9314-c5e0-4e5f-be46-d2769f78fe34.png)
+
+- Click "Add"
+
+![08_05_22_11_54_32](https://user-images.githubusercontent.com/112909705/191376015-2b99b17c-40d8-4268-9233-532e0d86a584.png)
+
+- Type "domain admin"
+- Click "Check Names"
+
+![08_05_22_11_57_06](https://user-images.githubusercontent.com/112909705/191376045-782e41db-ba91-4d16-a8e0-89c5427e019a.png)
+
+- Click "OK"
+
+![08_05_22_11_58_30](https://user-images.githubusercontent.com/112909705/191376102-ceae45fd-03bd-4fc7-b1d2-8e260e9dcbce.png)
+
+- Click "Apply"
+- Click "OK"
+
+![08_05_22_11_59_59](https://user-images.githubusercontent.com/112909705/191376152-bde63524-6990-4e3f-8063-c33f3ccd930f.png)
+
