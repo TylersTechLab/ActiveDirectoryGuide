@@ -232,3 +232,29 @@ ADD NETWORK DIAGRAM IMAGE REFERENCE HERE
 ![08_02_22_14_37_16](https://user-images.githubusercontent.com/112909705/191364540-d172d0d3-35b4-4a43-94c8-3e1d06841840.png)
 
 
+## Introduction to Windows Server 2022
+
+### What is a Computer Network? 
+
+Should I include this? 
+
+
+### What is a Server?
+
+
+### Why Windows Server 2022? 
+
+
+Should I include this?
+
+
+
+
+## Installing Windows Server 2022 on the VM 
+
+- Windows Server 2022 highlighted 
+- Click "Settings"
+- Click "Storage"
+- Click "Empty"
+- Click the blue disc icon to the right 
+- Click "Choose a disk file..."
