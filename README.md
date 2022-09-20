@@ -341,3 +341,34 @@ Password: Password1
 
 ![08_02_22_17_56_14](https://user-images.githubusercontent.com/112909705/191369395-90eaf88b-cae1-444e-87a6-3c71b1ce91c1.png)
 
+## First Time Logging In
+
+When the OS is loaded, you will be required to press Ctrl+Alt+Delete to unlock the screen. Until then, you cannot log in. The reason this is the default for Windows Server is that it provides a "Secure Login", where the key sequence will ensure a genuine Windows login screen appears. This prevents usernames and passwords from being intercepted from malicious programs. 
+
+Since we are running Windows Server on a virtual machine, if you were to press Ctrl+Alt+Delete on the keyboard, it would bring up a prompt for your host machine instead, so you cannot unlock the VM pressing Ctrl+Alt+Delete.
+
+To get around this, you can select:
+input > keyboard > insert Ctrl+Alt+Del
+
+Another option would be to use the key sequence "Host+Del", where Host is normally the right Ctrl key. So, Ctrl (right) + Del. 
+
+
+Unlock the computer by selecting:
+Input > Keyboard > Insert Ctrl+Alt+Del
+
+![08_02_22_17_58_53](https://user-images.githubusercontent.com/112909705/191369688-68f66dab-a3ec-4370-a345-b7ac56b7741c.png)
+
+Some windows are going to automatically open. 
+
+Check the box to not show the Windows Admin Center message again if you wish. Close the windows.  
+
+![08_03_22_15_37_48](https://user-images.githubusercontent.com/112909705/191369788-d1e774da-9db5-4067-8848-0fd2b29a46c5.png)
+
+We have successfully installed Windows Server 2022, so we no longer need the installation disk in the computer. Let's remove the installation disk. 
+
+ - Right-click the blue disk near the bottom right corner
+ - Click "Remove disk from virtual drive"
+
+![08_03_22_15_41_20](https://user-images.githubusercontent.com/112909705/191369857-82142cc5-4dc8-4605-af0f-b6b118d2bcfe.png)
+
+
