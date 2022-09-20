@@ -947,4 +947,107 @@ So in this instance, the our Windows 2022 Server (the Domain Controller), is goi
 ![08_07_22_08_26_09](https://user-images.githubusercontent.com/112909705/191378102-0b1a89a7-bbc3-41b4-a6d5-faab694cc2c0.png)
 
 
+## Configuring DHCP 
 
+- Search "dhcp"
+- Click the "DHCP" App.
+
+![08_07_22_08_42_38](https://user-images.githubusercontent.com/112909705/191379690-59a69a24-82ac-4cc7-a68b-b7a3d058aafd.png)
+
+- Click the drop-down for "dc.mydomain.com"
+- Right-click "IPv4"
+- Click "New Scope..."
+
+![08_07_22_08_47_57](https://user-images.githubusercontent.com/112909705/191379724-119b9678-95d9-48b6-984b-98bee76ba1e8.png)
+
+- Name the Scope 
+When looking at the network diagram, we have a DHCP scope of 172.16.0.100 - 200. You can name the scope anything, but naming it after the scope and knowing how large the range is when looking at the name is useful. 
+
+- Click "Next"
+
+![08_07_22_08_49_25](https://user-images.githubusercontent.com/112909705/191379754-90b20f20-edf3-4cf2-8ea4-dd0230a5aee6.png)
+
+- Click "Next"
+
+![08_07_22_08_51_27](https://user-images.githubusercontent.com/112909705/191379788-8e3a27bb-ea43-404f-aca8-a297f2b8dabc.png)
+
+- Configure the start IP address with: 172.16.0.100
+- Configure the end IP address with: 172.16.0.200
+- Configure the length of the subnet mask with: 24 
+- Configure the subnet mask with: 255.255.255.0 
+- Click "Next"
+
+![08_07_22_08_59_30](https://user-images.githubusercontent.com/112909705/191379836-c12b2a3b-bff4-4936-abcc-81900edf732b.png)
+
+There is no need to exclude any IP addresses for this lab. Practical uses would be for when you have other servers or devices (such as layer 3 switches or routers), where you want them to have a static IP address (one manually assigned and does not change), so all the other devices that rely on their services know where to contact them. You wouldn't know how to mail your friend if he moved houses constantly without telling you. 
+
+- Click "Next"
+
+![08_07_22_09_00_48](https://user-images.githubusercontent.com/112909705/191379877-67f647d3-51fb-4df1-916f-8426f7ff2a36.png)
+
+Lease duration is how long you give a client an IP address for. If you were setting up a network at a public place such as an airport, coffee shop, library, etc, you would want to set a range of maybe 30 minutes to 3 hours. If the lease is too long, such as 8 days, and the "pool" or the DHCP scope/range were to be taken up entirely by say 200 customers, those addresses wouldn't be available to use for anyone else, despite those customers being gone. This is a lab and we don't have to worry about this issue, so let's keep it at 8 days.
+
+- Click "Next"
+
+![08_07_22_09_01_15](https://user-images.githubusercontent.com/112909705/191379924-3b6bf84d-2cb6-4684-9216-07fd866a73e4.png)
+
+- Click "Next"
+
+![08_07_22_09_02_12](https://user-images.githubusercontent.com/112909705/191379959-e6090cc8-bbe9-4b85-b2f1-03919c4a3ac7.png)
+
+WRITE STUFF HERE LATER ABOUT WHY WE ARE DOING THIS
+- Set the IP address to 172.16.0.1 
+- Click "Add"
+- Click "Next"
+
+![08_07_22_09_04_08](https://user-images.githubusercontent.com/112909705/191380027-f92e03d7-aa5d-4f74-95e6-678362b6d8e5.png)
+
+- Click "Next"
+
+![08_07_22_09_08_52](https://user-images.githubusercontent.com/112909705/191380059-05bb1263-cbab-4973-9ed6-097a6f0a1350.png)
+
+- Click "Next"
+
+![08_07_22_09_09_22](https://user-images.githubusercontent.com/112909705/191380099-4bb5ebb2-40a8-46d0-8eda-f07717c623d4.png)
+
+- Click "Next"
+
+![08_07_22_09_10_41](https://user-images.githubusercontent.com/112909705/191380127-9c136f8a-af61-432b-ae62-46653181baad.png)
+
+- Click "Finish"
+
+![08_07_22_09_11_03](https://user-images.githubusercontent.com/112909705/191380163-e52ab557-c2f8-46b3-95eb-1e20ecd1a8ca.png)
+
+- Right-click "dc.mydomain.com"
+- Click "Authorize"
+
+![08_07_22_09_16_29](https://user-images.githubusercontent.com/112909705/191380188-9b06ec14-fc67-4db3-b6fb-6acf9adc7e8e.png)
+
+- Right-Click "dc.mydomain.com"
+- Click "Refresh"
+
+![08_07_22_09_17_25](https://user-images.githubusercontent.com/112909705/191380225-d3e8866f-2331-4f14-bb4d-459aede05916.png)
+
+After doing all of the above, it should show that DHCP is now up and running.
+
+![08_07_22_09_18_12](https://user-images.githubusercontent.com/112909705/191380246-43b421f9-1fe7-4fc9-867d-0cfa27321ed1.png)
+
+
+## Installing Windows 10 Enterprise on New VM 
+
+Win 10 Client 
+
+
+Bubbles
+Password1
+
+Sec q 1 -- What was your first pet's name?: Password1
+Sec q 2: -- What's the name of the city where you were born?: Password1
+Sec q 3:  What was your childhood nickname?:  Password1
+
+Let's create a new VM for the Windows 10 client. 
+
+- Click "New"
+- Name: "Windows 10 Client"
+- Version: "Windows 10 (64-bit)"
+- Click "Next" 
