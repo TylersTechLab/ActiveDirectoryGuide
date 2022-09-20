@@ -154,18 +154,22 @@ If performance isn't ideal, you can always change the value later...
 
 
 - Create a virtual hard disk now 
+
 ![08_02_22_07_26_27](https://user-images.githubusercontent.com/112909705/191362543-f84363a0-4672-42c8-b71c-a1e591700960.png)
 
 
 - Select VDI (VirtualBox Disk Image)
+
 ![08_02_22_07_27_39](https://user-images.githubusercontent.com/112909705/191362675-9b817334-4cd7-4faa-85c5-ae1740ec62e7.png)
 
 - Select "dynamically located" and hit next
+
 ![08_02_22_07_28_15](https://user-images.githubusercontent.com/112909705/191362777-4afda413-aea3-4dc9-8078-d727cbe295aa.png)
 
 
 - Increase the file size to 40GB 
 - Keep the file location, or change it if you prefer. 
+
 ![08_02_22_07_30_23](https://user-images.githubusercontent.com/112909705/191362890-f8a88b4c-3665-452d-bfed-44261cbb14e9.png)
 
 
@@ -179,4 +183,14 @@ If performance isn't ideal, you can always change the value later...
 
 
 
+If we refer back to our network diagram, we can see that we want two different networks on our Windows Server 2022 machine.  One is external, which faces the internet. The other being internal, which is a private network (we do not want the outside world being able to access this). By default, the virtual machine configured an external NIC (so it can access the internet, the outside world).  We must manually add another NIC, and we will use that to communicate with our private internal network. 
+
+ADD NETWORK DIAGRAM IMAGE REFERENCE HERE 
+
+- Select "Network"
+- Select "Adapter 2"
+- Enable Network Adapter 
+- Attach to "Internal Network"
+
+![08_02_22_07_50_09](https://user-images.githubusercontent.com/112909705/191363611-45b2da73-d076-47ef-9ba1-130fe25c0cc5.png)
 
