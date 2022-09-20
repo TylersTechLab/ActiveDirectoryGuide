@@ -4,7 +4,7 @@
 
 <h2>Description</h2>
 
-Upload network diagram here
+
 
 This guide is an attempt to help anyone that is interested in learning about why Active Directory is useful, applying the knowledge, and developing more skills for the workplace. 
 
@@ -22,7 +22,7 @@ After completing this lab, you will have learned more about why Active Directory
 
 <br />
 
-
+![29-07-2022 AD Lab drawio](https://user-images.githubusercontent.com/112909705/191284205-bdbfdcaa-935e-4017-a003-74e57009610a.png)
 
 <h2>Environments Used </h2>
 
