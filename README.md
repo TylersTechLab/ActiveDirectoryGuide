@@ -757,3 +757,34 @@ What is an Organizational Unit? EDIT EDIT EDIT EDIT
 
 ![08_05_22_11_59_59](https://user-images.githubusercontent.com/112909705/191376152-bde63524-6990-4e3f-8063-c33f3ccd930f.png)
 
+
+### Logging in With the Domain Admin Account 
+
+First, sign out of the normal admin account. 
+
+![08_05_22_14_21_46](https://user-images.githubusercontent.com/112909705/191376688-17f14d1b-7bcf-46b4-af79-530f06cb143b.png)
+
+![08_05_22_14_24_52](https://user-images.githubusercontent.com/112909705/191376743-49680a67-c563-4e09-8536-98e901a1878d.png)
+
+![08_05_22_14_25_32](https://user-images.githubusercontent.com/112909705/191376768-91f6a875-53a2-4a3d-9b56-31cd2bfe9cbe.png)
+
+- Click "Other user"
+
+![08_05_22_14_26_27](https://user-images.githubusercontent.com/112909705/191376813-c9349704-89e9-4d3f-87cf-ad22f4eee997.png)
+
+
+Enter the credentials for the domain administrator. 
+
+- username: a-jdoe 
+- password: Password1 
+
+![08_05_22_14_28_16](https://user-images.githubusercontent.com/112909705/191376849-8706c986-dd9a-4390-a00b-570cb96b76af.png)
+
+
+
+### Installing RAS/NAT 
+
+
+Navigate to Server Manager. 
+
+- Click "Add roles and features"
