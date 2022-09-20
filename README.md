@@ -485,3 +485,47 @@ Rename as "EXTERNAL" or something else intuitive to read.
 Both have been renamed and we do not need to go through all of those windows again to distinguish the NICs. This will speed up configuring other services that use either networks. 
 
 ![08_04_22_08_12_56](https://user-images.githubusercontent.com/112909705/191371785-a18b0b46-71c6-4b45-b628-fed056f31ecc.png)
+
+
+## Assigning an IP Address to the Internal Adapter 
+
+EDIT EDIT EDIT 
+
+Why are we changing the IP address?
+Talk about organization and ranges 
+Talk about subnets 
+
+
+
+- Double-click "Internal" > Properties > Internet Protocol Version 4 (TCP/IPv4)
+- Use the following IP Address: 
+- IP Address: 172.16.0.1
+- Subnet mask: 255.255.255.0
+- Default gateway: blank 
+
+- Use the following DNS server address: 
+- Preferred DNS server: 127.0.0.1 
+
+
+Double-click "INTERNAL"
+
+![08_04_22_13_41_04](https://user-images.githubusercontent.com/112909705/191372121-5900dc30-f18e-48ea-b3a3-f6f953e6e6cc.png)
+
+
+Click "Properties"
+
+![08_04_22_13_42_01 1](https://user-images.githubusercontent.com/112909705/191372216-762ec19d-8e9e-46cd-bb1e-678851c2c2be.png)
+
+Double-click "Internet Protocol Version 4 (TCP/IPv4)"
+
+![08_04_22_13_44_16](https://user-images.githubusercontent.com/112909705/191372307-647cf69d-0685-49d8-9db4-352180aad3be.png)
+
+- Select "Use the following IP address"
+- IP address: 172.16.0.1
+- Subnet mask: 255.255.255.0
+- Preferred DNS server: 127.0.0.1 
+- Click "OK"
+
+![08_04_22_13_51_21](https://user-images.githubusercontent.com/112909705/191372378-047816a0-d3ca-40a5-91be-bb8af8ee86cb.png)
+
+
