@@ -583,3 +583,20 @@ Click "Next"
 Have our DC selected and click "Next"
 
 ![08_05_22_08_19_48](https://user-images.githubusercontent.com/112909705/191373145-78ccf4d4-6cdb-4620-813d-2b1339f7f636.png)
+
+Click "Active Directory Domain Services"
+
+![08_05_22_08_23_26](https://user-images.githubusercontent.com/112909705/191373336-e49a2ae4-6a1a-4308-8aac-db0fd404b85d.png)
+
+Click "Add Features"
+
+![08_05_22_08_24_36](https://user-images.githubusercontent.com/112909705/191373497-9ecbabe5-dfed-4940-8fbc-d62346aea103.png)
+
+Click "Next"
+
+![08_05_22_08_26_26](https://user-images.githubusercontent.com/112909705/191373530-98be1137-deb2-419a-8a1e-1970669dfa0d.png)
+
+Click "Next"
+
+![08_05_22_08_27_11](https://user-images.githubusercontent.com/112909705/191373620-6874fa8f-9d5d-4f6b-a682-54a4fd34f61d.png)
+
