@@ -42,7 +42,6 @@ After completing this lab, you will have learned more about why Active Directory
 <h3>IT Knowledge</h3> 
 
 You don't need to know all of these things or any of them in great depth, but the more you know, the less googling you will have to do. 
-
 <br />
 
 - Basic understanding of what different hardware components do, such as CPU, RAM, HDD, NIC, etc
