@@ -1051,3 +1051,158 @@ Let's create a new VM for the Windows 10 client.
 - Name: "Windows 10 Client"
 - Version: "Windows 10 (64-bit)"
 - Click "Next" 
+
+![08_07_22_13_19_02 1](https://user-images.githubusercontent.com/112909705/191380536-a2f15ea5-e538-40ea-a525-d63b0e4ac73d.png)
+
+- Select 2048MB of memory 
+- Click "Next" 
+
+![08_07_22_13_22_21](https://user-images.githubusercontent.com/112909705/191380605-b7fde7c0-250e-483a-b9af-a671d5a9adf1.png)
+
+- Click "Create"
+
+![08_07_22_13_23_05](https://user-images.githubusercontent.com/112909705/191380632-49418c2d-69a2-4c38-aa9f-bf3321d20e6e.png)
+
+- Click "Next"
+
+![08_07_22_13_23_38](https://user-images.githubusercontent.com/112909705/191380667-0f68283b-ad4d-4d32-877c-f6f1a4db3996.png)
+
+- Click "Next"
+
+![08_07_22_13_24_03](https://user-images.githubusercontent.com/112909705/191380689-07c1ff75-02cf-4e7f-8c16-fec44019c44d.png)
+
+- Select 40GB
+- Click "Create" 
+
+![08_07_22_13_25_13](https://user-images.githubusercontent.com/112909705/191380712-ca6c5f03-40dc-4739-ba5a-14217ab50535.png)
+
+- Select "Windows 10 Client"
+- Click "Settings" 
+- Click "Network"
+- Select "Internal Network" 
+- Click "OK"
+
+![08_07_22_13_29_27](https://user-images.githubusercontent.com/112909705/191380739-330a6d22-7c38-436c-a325-b026cc6761bc.png)
+
+- Select "Windows 10 Client" 
+- Click "Settings" 
+- Click "Storage" 
+- Click "Empty" 
+- Click "Disc" 
+- Click "Choose a disk file..."
+
+![08_07_22_13_37_46](https://user-images.githubusercontent.com/112909705/191380772-30ded29a-cd2b-469d-9020-c196aad14657.png)
+
+
+- Double-click the Windows 10 ISO file. It may have a very convoluted name.
+
+![08_07_22_13_39_15](https://user-images.githubusercontent.com/112909705/191380822-e65b717f-d8b0-4225-83e1-414379597a2b.png)
+
+- Click "OK"
+
+![08_07_22_13_39_40](https://user-images.githubusercontent.com/112909705/191380844-6b8049ea-bb0a-448b-915d-4fe0d0e63a5b.png)
+
+- Select "Windows 10 Client"
+- Click "Start"
+
+![08_07_22_13_40_36](https://user-images.githubusercontent.com/112909705/191380884-778ab1df-03de-45cc-a77b-dcdc41c441a5.png)
+
+- Click "Next"
+
+![08_07_22_13_41_27](https://user-images.githubusercontent.com/112909705/191380903-e8d58539-0ddc-4cd8-8452-e3268618f09c.png)
+
+- Click "Install now" 
+
+![08_07_22_13_41_57](https://user-images.githubusercontent.com/112909705/191380917-4f0293dc-0af4-4d04-9a63-f5fbbdf1de34.png)
+
+- Accept the license terms
+- Click "Next" 
+
+![08_07_22_13_42_57](https://user-images.githubusercontent.com/112909705/191380949-487fe417-2c47-4fbc-b18e-4edd6bbc1912.png)
+
+- Click "Custom: Install Windows only (advanced)"
+
+![08_07_22_13_43_24](https://user-images.githubusercontent.com/112909705/191380979-77228664-e4c3-450f-ac68-f86b9f49bf2e.png)
+
+- Select "Drive 0 Unallocated Space - 40.0 GB - 40.0 GB"
+- Click "Next"
+
+![08_07_22_13_44_21](https://user-images.githubusercontent.com/112909705/191381007-00f6d1e3-2b22-4d8f-9c4a-c83d0cbac5f2.png)
+
+
+Make sure not to press any key. If you do, it will restart the installation process. 
+
+![08_07_22_13_47_43](https://user-images.githubusercontent.com/112909705/191381032-8e0956d4-d1dc-4365-a891-37e6537e9539.png)
+
+Windows should be beginning to get ready. 
+
+![08_07_22_13_47_53](https://user-images.githubusercontent.com/112909705/191381064-7bfa123a-cdd8-4a64-937f-66b269e51261.png)
+
+- Click "Yes"
+
+![08_07_22_13_51_35](https://user-images.githubusercontent.com/112909705/191381090-39df3162-c1c9-4cfb-8f0b-1c0f426ec1b4.png)
+
+- Click "Yes"
+
+![08_07_22_13_52_28](https://user-images.githubusercontent.com/112909705/191381125-e293ff2a-3f7f-4c11-8ac6-2623f51b4d3b.png)
+
+- Click "Skip"
+- 
+![08_07_22_13_52_50](https://user-images.githubusercontent.com/112909705/191381148-f2ee2c47-56f4-439b-ba51-991cf56e9737.png)
+
+- Click "Domain join instead"
+
+![08_07_22_13_54_00](https://user-images.githubusercontent.com/112909705/191381189-a45bd631-2855-4b60-b59a-ab2a1f51aa3b.png)
+
+- Input a name (Bubbles)
+- Click "Next"
+
+![08_07_22_13_56_00](https://user-images.githubusercontent.com/112909705/191381237-dd8ca5ce-40e0-4055-a769-e3ccae73e575.png)
+
+- Input a password (Password1)
+- Click "Next"
+
+![08_07_22_13_57_00](https://user-images.githubusercontent.com/112909705/191381294-ed46d299-096a-4843-b1e4-1e0ca6ca5292.png)
+
+
+- Select 3 security questions and enter the answers
+- Click Next
+
+![08_07_22_14_01_07](https://user-images.githubusercontent.com/112909705/191381325-e2441516-554f-4989-a61a-3dde16977ff8.png)
+
+- Change privacy settings according to your preferences 
+- Click "Accept"
+
+![08_07_22_14_03_19](https://user-images.githubusercontent.com/112909705/191381353-8e65d550-4d4c-4797-ace7-d2654fc7c129.png)
+
+- Click "Not now" 
+
+![08_07_22_14_03_42](https://user-images.githubusercontent.com/112909705/191381371-d20a934d-7c15-4334-92fd-197a04b90039.png)
+
+It may take a while to set up.
+
+![08_07_22_14_04_03](https://user-images.githubusercontent.com/112909705/191381399-4f833dab-af81-4dc6-87de-02382c4a9ba3.png)
+
+Windows 10 screen is now ready 
+
+![08_07_22_14_05_57](https://user-images.githubusercontent.com/112909705/191381431-0b30dd87-161e-4223-a06d-95ac0582306c.png)
+
+### Installing VirtualBox Guest Additions on Windows 10 
+
+Eject the Windows 10 Enterprise ISO Disk
+
+- Right-click the blue disc in bottom-right corner 
+- Click "Remove disk from virtual disk" 
+
+
+
+
+
+
+
+
+
+
+
+
+
