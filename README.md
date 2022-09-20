@@ -142,3 +142,41 @@ Buying dedicated computers to run server software is costly. It is also tedious 
 
 ![08_02_22_07_14_21](https://user-images.githubusercontent.com/112909705/191360081-2bf84249-c51b-4ac0-babc-3720952dd264.png)
 
+
+- Select the amount of RAM
+
+This depends how much RAM your computer has, but the more RAM you add, the less lag you'll experience in the VM. I'd recommend trying at least 2048MB. You don't want to allocate too much RAM, though, as it can affect your "host"(physical) computer from running properly. This would also affect the virtual machine. 
+
+If performance isn't ideal, you can always change the value later...
+
+![08_02_22_07_20_16](https://user-images.githubusercontent.com/112909705/191362379-77282b9a-4305-46fa-83ec-9852844bfb9d.png)
+
+
+
+- Create a virtual hard disk now 
+![08_02_22_07_26_27](https://user-images.githubusercontent.com/112909705/191362543-f84363a0-4672-42c8-b71c-a1e591700960.png)
+
+
+- Select VDI (VirtualBox Disk Image)
+![08_02_22_07_27_39](https://user-images.githubusercontent.com/112909705/191362675-9b817334-4cd7-4faa-85c5-ae1740ec62e7.png)
+
+- Select "dynamically located" and hit next
+![08_02_22_07_28_15](https://user-images.githubusercontent.com/112909705/191362777-4afda413-aea3-4dc9-8078-d727cbe295aa.png)
+
+
+- Increase the file size to 40GB 
+- Keep the file location, or change it if you prefer. 
+![08_02_22_07_30_23](https://user-images.githubusercontent.com/112909705/191362890-f8a88b4c-3665-452d-bfed-44261cbb14e9.png)
+
+
+- With "Windows Server 2022" being highlighted, select the yellow cog that says "Settings" 
+- Select "Advanced"
+- Change the following:
+	- Shared Clipboard: Bidirectional
+	- Drag'n'Drop: Bidirectional 
+
+![08_02_22_07_43_26](https://user-images.githubusercontent.com/112909705/191363109-3d81d786-1584-4e60-89cb-73a5e1c9b46d.png)
+
+
+
+
