@@ -371,4 +371,40 @@ We have successfully installed Windows Server 2022, so we no longer need the ins
 
 ![08_03_22_15_41_20](https://user-images.githubusercontent.com/112909705/191369857-82142cc5-4dc8-4605-af0f-b6b118d2bcfe.png)
 
+The Windows Server 2022 ISO disk that we inserted earlier has been removed. You can tell as it's no longer a blue colour and has a faded grey colour. 
 
+![08_03_22_15_44_51](https://user-images.githubusercontent.com/112909705/191370055-340aade3-f1ee-47b0-bd7c-ea4d1f4a79d7.png)
+
+### Installing VirtualBox Guest Additions 
+
+With an empty optical drive now, let's install VirtualBox Guest Additions. 
+
+This step is very important for making your VM experience more enjoyable. The VirtualBox Guest Additions has system application and driver software which makes the OS run faster, which decreases the delay of inputs drastically. 
+
+- Devices > Insert Guest Additions CD Image... 
+
+![08_03_22_15_47_28](https://user-images.githubusercontent.com/112909705/191370130-313564b2-da3f-4bd0-9d58-f948315bca32.png)
+
+- File Explorer > CD Drive (D:) VirtualBox Guest Additions >VBoxWindowsAdditions-amd64
+
+![08_03_22_15_50_19](https://user-images.githubusercontent.com/112909705/191370273-df8fa9d3-ee80-4919-a601-6fe4bc736c2b.png)
+
+
+- Click Next
+
+![08_03_22_15_53_28](https://user-images.githubusercontent.com/112909705/191370359-f0e3b2fe-d88d-4eba-8dad-515f8ebcf412.png)
+
+- Click Next
+
+![08_03_22_15_54_00](https://user-images.githubusercontent.com/112909705/191370425-a6ecb57a-520f-4b50-969a-1268b47c9734.png)
+
+- Click Install
+
+![08_03_22_15_54_30](https://user-images.githubusercontent.com/112909705/191370480-0ee67a74-1e06-4a03-8f9c-abeff41715c3.png)
+
+- "Reboot now" selected
+- Click "Finish" 
+
+![08_03_22_15_55_22](https://user-images.githubusercontent.com/112909705/191370537-da7edc23-f33e-4af8-82bc-4d5619e72891.png)
+
+You should notice the Virtual Machine runs much faster now. 
