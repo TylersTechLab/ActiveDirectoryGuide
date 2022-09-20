@@ -22,8 +22,6 @@ Active Directory is a great way to learn practical knowledge that is used in an 
 
 After completing this lab, you will have learned more about why Active Directory is so useful, how to apply that knowledge in the workplace, and a lab environment to practice more on your own. 
 
-<br />
-
 
 
 <h2>Environments Used and Downloads</h2>
@@ -32,11 +30,7 @@ After completing this lab, you will have learned more about why Active Directory
 - <b>Windows Server 2022</b>
 - <b>Windows 10</b>
 
-<h2>---</h2>
-
-
 <h2>Prerequisites</h3> 
-
 
 
 <h3>IT Knowledge</h3> 
@@ -62,5 +56,44 @@ You don't need these things, but they are recommended for optimizing your VM's p
 - 100GB+ of unused storage (Windows 10 and Server 2022 require a minimum 32GB of unused storage each) 
 
 
+## Downloads 
 
+### Virtual Machine (Oracle VirtualBox)
+
+Download the VirtualBox and the Extension from:
+https://www.virtualbox.org/wiki/Downloads
+
+![firefox_DYwz5koyyw](https://user-images.githubusercontent.com/112909705/191357946-9f6cf39b-9e9b-4ab6-ae6e-5fb0dce53dd4.png)
+
+![firefox_pSEJavfft1](https://user-images.githubusercontent.com/112909705/191358052-d2b8857a-709a-43ae-aa1a-8e19280e7266.png)
+
+
+Do not forget to download the VirtualBox Extension Pack. It will provide more functionalities to your virtual machine that aren't automatically included, such as being able to use your USB and Webcam from your host computer (the computer you're using now). 
+
+
+
+
+
+### Windows Server 2022 Evaluation ISO 
+
+Download Microsoft Server 2022 Evaluation ISO: https://www.microsoft.com/en-gb/evalcenter/evaluate-windows-server-2022
+
+
+![firefox_hN23JGBfHF](https://user-images.githubusercontent.com/112909705/191358335-ba56f33f-4fb9-4bb4-bd21-b33e752baef8.png)
+
+
+After clicking "Download the ISO", you will need to fill in some personal information before choosing the appropriate ISO.
+
+
+
+
+### Windows 10 Enterprise Evaluation ISO 
+
+Download Microsoft Windows 10 Enterprise Evaluation ISO: https://www.microsoft.com/en-GB/evalcenter/evaluate-windows-10-enterprise
+
+
+![firefox_bNxzh6GmmQ 1](https://user-images.githubusercontent.com/112909705/191358495-68d20c30-1a30-49b2-ac67-27847655d292.png)
+
+
+After clicking "Download the ISO - Enterprise", you will need to fill in some personal information before choosing the appropriate ISO. 
 
