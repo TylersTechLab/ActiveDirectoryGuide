@@ -889,3 +889,62 @@ Open the Server Manager Dashboard.
 Everything is configured and good to go! 
 
 ![08_06_22_12_32_13](https://user-images.githubusercontent.com/112909705/191377752-4916abcd-bbbf-4e9d-b9f2-873167020b45.png)
+
+## Installing DHCP 
+
+What is DHCP? 
+
+Dynamic Host Configuration Protocol is very useful. It makes the system administrator's more enjoyable by automating a lot of the tasks. 
+
+In order for computers to communicate with each other, they need things like IP addresses, default gateways, DNS servers, etc. 
+
+DHCP will do this work for you in real time. An example being is when you go into a coffee shop and want to use their internet. When you connect, the network or system administrator did not assign you an IP manually. DHCP was configured properly and assigned you an IP to use temporarily. 
+
+This is understandably useful when you are say, in an airport and there are a 1,000 people trying to use the internet. 
+
+So in this instance, the our Windows 2022 Server (the Domain Controller), is going to automatically assign an IP address to any of the Windows 10 clients that connect to the network. 
+
+
+- Click "Add roles and features" 
+
+![08_07_22_08_16_47](https://user-images.githubusercontent.com/112909705/191377839-bbda617e-c07a-4cd6-987e-5492522d9f78.png)
+
+- Click "Next"
+
+![08_07_22_08_17_17](https://user-images.githubusercontent.com/112909705/191377876-55d76f54-5bf8-4d8b-adb0-f9465e7be6a8.png)
+
+- Click "Next"
+
+![08_07_22_08_17_37](https://user-images.githubusercontent.com/112909705/191377920-8bfc67b9-dd0e-449b-82ca-2ac059ac782f.png)
+
+- Click "Next"
+
+![08_07_22_08_18_24](https://user-images.githubusercontent.com/112909705/191377941-01c685a3-5cd6-4255-8fb1-5cbe9f0d0f5f.png)
+
+- Select "DHCP Server"
+- Click "Add Features" 
+
+![08_07_22_08_22_13](https://user-images.githubusercontent.com/112909705/191377969-4d20e634-02fc-4bdf-8ce9-f7cd9cf936c5.png)
+
+- Click "Next"
+
+![08_07_22_08_22_46](https://user-images.githubusercontent.com/112909705/191378011-f8c5ee32-52e8-4d72-a94b-d5a67f2389a1.png)
+
+- Click "Next"
+
+![08_07_22_08_23_32](https://user-images.githubusercontent.com/112909705/191378027-60d7c140-b817-4205-8fc3-630d903e7e9c.png)
+
+- Click "Next"
+
+![08_07_22_08_24_04](https://user-images.githubusercontent.com/112909705/191378052-e2eb2cbc-b8c4-4d53-9e85-f2deddefeee4.png)
+
+- Click "Install"
+
+![08_07_22_08_24_54](https://user-images.githubusercontent.com/112909705/191378077-2bea9df0-3664-40f2-acfd-f1d3e235491c.png)
+
+- Click "Close"
+
+![08_07_22_08_26_09](https://user-images.githubusercontent.com/112909705/191378102-0b1a89a7-bbc3-41b4-a6d5-faab694cc2c0.png)
+
+
+
