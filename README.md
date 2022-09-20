@@ -1,6 +1,8 @@
 <h1>Active Directory Lab -- Detailed Guide for Beginners</h1>
 
- 
+<h2>Network Diagram</h2>
+
+![29-07-2022 AD Lab drawio](https://user-images.githubusercontent.com/112909705/191284205-bdbfdcaa-935e-4017-a003-74e57009610a.png)
 
 <h2>Description</h2>
 
@@ -22,14 +24,16 @@ After completing this lab, you will have learned more about why Active Directory
 
 <br />
 
-![29-07-2022 AD Lab drawio](https://user-images.githubusercontent.com/112909705/191284205-bdbfdcaa-935e-4017-a003-74e57009610a.png)
 
-<h2>Environments Used </h2>
+
+<h2>Environments Used and Downloads</h2>
 
 - <b>Oracle VirtualBox</b> 
 - <b>Windows Server 2022</b>
 - <b>Windows 10</b>
 
 <h2>---</h2>
+
+
 
 
