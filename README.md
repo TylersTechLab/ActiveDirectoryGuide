@@ -529,3 +529,23 @@ Double-click "Internet Protocol Version 4 (TCP/IPv4)"
 ![08_04_22_13_51_21](https://user-images.githubusercontent.com/112909705/191372378-047816a0-d3ca-40a5-91be-bb8af8ee86cb.png)
 
 
+## Rename the Computer 
+
+- Right-click the Start/Windows button > System 
+
+![08_04_22_15_55_35](https://user-images.githubusercontent.com/112909705/191372586-4cdc2fe9-9fef-4c4d-b8f3-4f5cd925d44d.png)
+
+Click "Rename this PC" 
+
+![08_04_22_15_56_18](https://user-images.githubusercontent.com/112909705/191372637-c214b7ef-fc22-49a4-a6d4-41c9802c0e0b.png)
+
+- Type "DC" (for Domain Controller)
+- Click "Next"
+
+![08_04_22_15_57_56](https://user-images.githubusercontent.com/112909705/191372696-00e7694a-dc98-444a-946b-748f597937c2.png)
+
+Click "Restart now"
+
+![08_04_22_15_58_34](https://user-images.githubusercontent.com/112909705/191372744-f15012b7-240c-4011-8d85-ad7b0710f9b5.png)
+
+
