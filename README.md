@@ -262,3 +262,26 @@ Should I include this?
 ![08_02_22_16_16_47](https://user-images.githubusercontent.com/112909705/191365044-4ebfd33e-8e0a-4619-9e00-b25f439f994c.png)
 
 
+- Go to the location you saved the Windows Server 2022 ISO 
+- Double-Click "Server_EVAL_...."
+
+![08_02_22_16_17_52](https://user-images.githubusercontent.com/112909705/191368271-83afb766-1ad5-4445-bb44-d49c8969b868.png)
+
+- Click "OK"
+
+![08_02_22_16_20_25](https://user-images.githubusercontent.com/112909705/191368361-158f2d5c-c9fe-4230-ac99-cd75ed575e33.png)
+
+
+- Click "Windows Server 2022"
+- Click "Start"
+
+![08_02_22_16_09_06](https://user-images.githubusercontent.com/112909705/191368421-1e9c4e16-672f-499e-b771-af0221902274.png)
+
+- Select your preferred language and keyboard layout
+- Click "Next" 
+
+![08_02_22_17_37_51](https://user-images.githubusercontent.com/112909705/191368468-90d22477-ecb2-4c95-919d-7858ebdc6ad1.png)
+
+- Select "Install Now"
+![08_02_22_17_41_54](https://user-images.githubusercontent.com/112909705/191368588-e4c41129-0283-4693-95bb-000d9a482da0.png)
+
