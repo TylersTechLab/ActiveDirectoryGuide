@@ -97,3 +97,48 @@ Download Microsoft Windows 10 Enterprise Evaluation ISO: https://www.microsoft.c
 
 After clicking "Download the ISO - Enterprise", you will need to fill in some personal information before choosing the appropriate ISO. 
 
+
+## Introduction to Virtual Machines 
+
+### What is a Virtual Machine? 
+
+An easy way to describe a virtual machine is "a computer inside of a computer". 
+
+Imagine you were to open any program, such as Google Chrome, but the window that pops up shows you a Windows 10, MacOS, or Linux system that you can interact with -- just like any other computer. It's like you have two different computers on one screen.
+
+
+When you create a virtual machine on your personal computer, you allocate some resources from your physical computer (CPU, RAM, HDD/SDD, NIC, etc) to be used for the virtual machine. So if you were to allocate 33% of your CPU usage to the VM, every time you launch that VM, 33% of your CPU would be dedicated to it. The same applies with RAM. 
+
+Host machine refers to the PC you are physically using, and the operating system that is on it. Guest machine refers to the virtual machine. 
+
+The way that your computer (without a virtual machine) typically manages its resources is through the operating system. So, if you were using Windows 10, it would be interacting directly with the hardware. However, specialized hypervisor software allows the hardware 
+
+![08_02_22_06_35_28](https://user-images.githubusercontent.com/112909705/191359574-b49a12d8-b769-48dd-83e3-f30d24084f61.png)
+
+
+### Why a Virtual Machine? 
+
+Useful for cloud enterprise, but also personal use. 
+
+Buying dedicated computers to run server software is costly. It is also tedious to use your personal every-day computer (without a virtual machine) as a lab. You might break something that needs fixing, and you don't have a very functional computer in the meantime. If you use a Virtual Machine, you can just delete it, and start again. 
+
+
+## Installing VirtualBox 
+
+- Open your "Downloads" folder, or where you saved the VirtualBox installation file
+- Execute the VirtualBox installation file
+- Agree to all prompts 
+
+
+## Setting up a Virtual Machine
+
+- Launch Virtual Box if it's not already open 
+- Select the blue icon called "New" 
+- Name the Virtual Machine "Windows Server 2022" (or something similar)
+- Keep the default Machine Folder, or change it if you prefer a different path
+- Keep the Type as Microsoft Windows 
+- Change the Version to "Others Windows (64-bit)"
+- Select "Next"
+
+![08_02_22_07_14_21](https://user-images.githubusercontent.com/112909705/191360081-2bf84249-c51b-4ac0-babc-3720952dd264.png)
+
