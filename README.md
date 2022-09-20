@@ -194,3 +194,41 @@ ADD NETWORK DIAGRAM IMAGE REFERENCE HERE
 
 ![08_02_22_07_50_09](https://user-images.githubusercontent.com/112909705/191363611-45b2da73-d076-47ef-9ba1-130fe25c0cc5.png)
 
+- Select "System" and then "Processor"
+- Change the amount of processor(s) and cores to 2 or 3. 
+
+![08_02_22_07_58_30](https://user-images.githubusercontent.com/112909705/191363930-d486f4cb-aef4-40b7-a386-bb135f52f2c1.png)
+
+
+- file > preferences > extensions > click green + > select extensions file > install 
+
+![08_02_22_14_05_31](https://user-images.githubusercontent.com/112909705/191364048-40885098-8a65-4554-b641-9494668584a6.png)
+
+- Click Extensions
+- Click the green +
+
+![08_02_22_14_10_49](https://user-images.githubusercontent.com/112909705/191364135-db6a7923-f0ce-4d8b-a3ab-a3e6bd137fea.png)
+
+- Double-Click Oracle_VM_VirtualBox...
+
+![08_02_22_14_12_43](https://user-images.githubusercontent.com/112909705/191364206-30026d06-cc70-4624-8482-a74a5e8ee760.png)
+
+- Click Install 
+
+![08_02_22_14_21_14 1](https://user-images.githubusercontent.com/112909705/191364279-922e2a62-48e9-437c-b1ee-6cd0ef9ff60e.png)
+
+- Scroll down 
+- Click "I Agree"
+
+![08_02_22_14_22_36 1](https://user-images.githubusercontent.com/112909705/191364389-e3f28944-4f6b-4a39-9e65-c041e27e5972.png)
+
+- Click "OK"
+
+![08_02_22_14_23_37](https://user-images.githubusercontent.com/112909705/191364461-ae2bdcf3-d0fc-48e2-b9eb-42091127403e.png)
+
+
+- Click "OK"
+
+![08_02_22_14_37_16](https://user-images.githubusercontent.com/112909705/191364540-d172d0d3-35b4-4a43-94c8-3e1d06841840.png)
+
+
