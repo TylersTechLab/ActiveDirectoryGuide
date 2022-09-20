@@ -8,8 +8,6 @@
 
 <h2>Description</h2>
 
-
-
 This guide is an attempt to help anyone that is interested in learning about why Active Directory is useful, applying the knowledge, and developing more skills for the workplace. 
 
 <br />
@@ -42,9 +40,13 @@ After completing this lab, you will have learned more about why Active Directory
 
 
 <h3>IT Knowledge</h3> 
-You don't need to know all of these things in depth, but the more you know, the less googling you will have to do. 
-- Basic understanding of what different hardware components do, such as CPU, RAM, HDD, etc
-- Basic understanding of computer networking, such as IP, subnets, default gateways, etc.
+
+You don't need to know all of these things or any of them in great depth, but the more you know, the less googling you will have to do. 
+
+<br />
+
+- Basic understanding of what different hardware components do, such as CPU, RAM, HDD, NIC, etc
+- Basic understanding of computer networking, such as IP, subnets, default gateways, etc
 - Basic understanding of Client-Server model 
 - Basic understanding of different services such as DHCP, DNS, NAT, etc 
 
@@ -53,9 +55,12 @@ You don't need to know all of these things in depth, but the more you know, the 
 
 
 <h3>Hardware</h3> 
+
 You don't need these things, but they are recommended for optimizing your VM's performance. 
-- At least 8GB of RAM (ideally 16GB+)
-- 50GB of space on your HDD/SSD 
+<br />
+
+- 8GB+ of RAM is ideal (Attempt even if under 8GB)
+- 100GB+ of unused storage (Windows 10 and Server 2022 require a minimum 32GB of unused storage each) 
 
 
 
