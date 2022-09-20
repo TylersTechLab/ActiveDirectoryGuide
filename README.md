@@ -852,3 +852,40 @@ DirectAccess and VPN (RAS) will have been automatically selected, after selectin
 
 ![08_06_22_08_59_43](https://user-images.githubusercontent.com/112909705/191377465-5c43f181-7801-4f72-8183-664b1ffbb4ba.png)
 
+### Configuring RAS/NAT 
+
+
+Open the Server Manager Dashboard.
+
+
+- Tools > Routing and Remote Access
+
+![08_06_22_11_41_12](https://user-images.githubusercontent.com/112909705/191377567-d11100a6-afa4-48e1-879c-c71694dbe4e4.png)
+
+- DC (local) > Configure and Enable Routing and Remote Access 
+
+![08_06_22_11_48_26](https://user-images.githubusercontent.com/112909705/191377597-b523d053-18f2-48aa-8fbf-6cd63f761e64.png)
+
+
+- Click "Next"
+
+![08_06_22_11_49_03](https://user-images.githubusercontent.com/112909705/191377618-63c45958-8cbb-4e9f-a718-4e57d23504fc.png)
+
+- Select "Network address translation (NAT)"
+- Click "Next"
+
+![08_06_22_11_51_30](https://user-images.githubusercontent.com/112909705/191377642-10a34934-6cb4-4571-bb6f-e43411c68946.png)
+
+
+- Select "EXTERNAL"
+- Click "Next"
+
+![08_06_22_12_19_47](https://user-images.githubusercontent.com/112909705/191377686-216827e5-dcac-45c9-ab6d-e0f4e3107a8a.png)
+
+- Click "Finish"
+
+![08_06_22_12_20_31](https://user-images.githubusercontent.com/112909705/191377713-4fdb34c4-d8b6-46b0-a56b-394120343347.png)
+
+Everything is configured and good to go! 
+
+![08_06_22_12_32_13](https://user-images.githubusercontent.com/112909705/191377752-4916abcd-bbbf-4e9d-b9f2-873167020b45.png)
