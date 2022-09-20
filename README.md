@@ -600,3 +600,15 @@ Click "Next"
 
 ![08_05_22_08_27_11](https://user-images.githubusercontent.com/112909705/191373620-6874fa8f-9d5d-4f6b-a682-54a4fd34f61d.png)
 
+Click "Install"
+
+![08_05_22_08_27_43](https://user-images.githubusercontent.com/112909705/191374071-b9e44642-fea2-4613-b306-70a45d776557.png)
+
+
+Installation might take a while. 
+
+- Click "Close"
+
+![08_05_22_08_29_04](https://user-images.githubusercontent.com/112909705/191374118-31bf0d95-56ea-402d-8854-b4d23f5c85fd.png)
+
+
