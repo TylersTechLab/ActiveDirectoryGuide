@@ -612,3 +612,71 @@ Installation might take a while.
 ![08_05_22_08_29_04](https://user-images.githubusercontent.com/112909705/191374118-31bf0d95-56ea-402d-8854-b4d23f5c85fd.png)
 
 
+## What is a Domain Controller?
+
+EXPLAIN WHAT A DC IS 
+
+## Promoting Domain Controller 
+
+Active Directory Directory Services is now downloaded, but we haven't used the software to create a Domain Controller. To do that, we must promote the server to a domain controller. 
+
+
+In the Server Manager Dashboard, in the top-right corner, click the yellow triangle with a !. Click "Promote this server to a domain controller"
+
+![08_05_22_08_47_28](https://user-images.githubusercontent.com/112909705/191374858-958b77fb-0d12-4bc9-a776-3d22b572e09e.png)
+
+
+- Select "Add a new forest"
+- Root domain name: mydomain.com 
+- Click "Next"
+
+![08_05_22_08_51_21](https://user-images.githubusercontent.com/112909705/191374897-d4ffc1c7-9ae6-47f8-ac52-142f50b58e5a.png)
+
+
+ Wait patiently. It took a long time to be able to put in the password from loading. password: Password1 
+- Type the directory Services Restore Mode (DSRM) password (required).
+- Click "Next"
+
+![08_05_22_08_59_32](https://user-images.githubusercontent.com/112909705/191374964-fcef4b74-badb-47c0-b1b0-80830999e4bb.png)
+
+Click "Next"
+
+![08_05_22_09_00_06](https://user-images.githubusercontent.com/112909705/191375028-076a3ca1-30b0-4548-9b79-fe67dead8059.png)
+
+Click "Next"
+It might take a while before the window properly loads. 
+
+![08_05_22_09_01_28](https://user-images.githubusercontent.com/112909705/191375067-8889a7f3-c42b-4115-b822-08439d3f3ba2.png)
+
+Click "Next"
+
+![08_05_22_09_02_09](https://user-images.githubusercontent.com/112909705/191375121-07bb97c3-d27d-4a7f-85f9-b40665e9f6ba.png)
+
+
+Click "Next"
+
+![08_05_22_09_02_51](https://user-images.githubusercontent.com/112909705/191375199-d7411e8c-1066-482d-af9b-f5cda3815676.png)
+
+
+Click "Install"
+
+Installation will take a while. 
+
+![08_05_22_09_04_50](https://user-images.githubusercontent.com/112909705/191375239-f52fa607-0694-4665-922b-9f1271450289.png)
+
+The computer will restart and will take a while before you can log in again. 
+
+![08_05_22_09_11_45](https://user-images.githubusercontent.com/112909705/191375276-f5412865-4889-4c02-a1a8-55f9345b3a80.png)
+
+
+## Creating a Domain Administrator Account (Organizational Unit)
+
+What is an Organizational Unit? 
+
+
+- Log into the computer again
+- You will notice we have created a domain, and now a part of it 
+- Search for "users" and click "Active Directory Users and Computers"
+- right click "mydomain.com" > new > Organizational Unit > name it ADMINS
+- drop-down "mydomain.com > right-click "ADMINS" > New > User > First name: Jane, last name: Doe, user login a-jdoe > next
+- Set password to: Password1 -- change to "password never expires"
