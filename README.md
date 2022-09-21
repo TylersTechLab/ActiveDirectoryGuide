@@ -16,7 +16,7 @@ This documentation will walk you through setting up an Active Directory Lab usin
 
 <br />
 
-Active Directory is a great way to learn practical knowledge that is used in an enterprise environment, which makes is a great starting point for anyone trying to learn more about IT and develop skills that are used in jobs ranging from Help Desk to Cybersecurity positions. 
+Active Directory is a great way to learn practical knowledge that is used in an enterprise environment, which makes it a great starting point for anyone trying to learn more about IT and develop skills that are used in jobs ranging from Help Desk to Cybersecurity positions. 
 
 <br />
 
