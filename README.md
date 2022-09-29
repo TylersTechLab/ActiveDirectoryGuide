@@ -111,7 +111,6 @@ When you create a virtual machine on your personal computer, you allocate some r
 
 Host machine refers to the PC you are physically using, and the operating system that is on it. Guest machine refers to the virtual machine. 
 
-The way that your computer (without a virtual machine) typically manages its resources is through the operating system. So, if you were using Windows 10, it would be interacting directly with the hardware. However, specialized hypervisor software allows the hardware 
 
 ![08_02_22_06_35_28](https://user-images.githubusercontent.com/112909705/191359574-b49a12d8-b769-48dd-83e3-f30d24084f61.png)
 
